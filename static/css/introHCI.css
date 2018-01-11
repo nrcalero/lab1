@@ -1,43 +1,11 @@
-/* applies to anything of class "example-class-selector" */
-.example-class-selector {
-	margin-top: 2em;
-}
-
-/* applies to any <p> descendants of an element of class "example-class-selector" */
-.example-class-selector p {
-	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
-	color: #CC00AA;
-}
-
-#main {
-     max-width: 520px;
-}
-
-.item img {
-     width: 100%;
-}
-
-/* this style exists to make it obvious that you've successfully linked
-   the CSS to the page. feel free to remove it once the link is working. */
 body {
      padding: 20px;
-     align-content: center;
-     text-align: center;
 }
 
-.jumbotron {
-	position: relative;
-	background: none;
+#main{
+    max-width: 520px;
 }
 
-.jumbotron:after {
-     content:"";
-     background: url("http://lorempixel.com/1140/283");
-     opacity: 0.2;
-     top: 0;
-     left: 0;
-     bottom: 0;
-     right: 0;
-     position: absolute;
-     z-index: -1;
+.carousel-item img {
+     width: 100%;
 }
