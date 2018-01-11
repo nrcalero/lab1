@@ -9,11 +9,20 @@
 	color: #CC00AA;
 }
 
+#main {
+     max-width: 520px;
+}
+
+.item img {
+     width: 100%;
+}
+
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
      padding: 20px;
+     align-content: center;
+     text-align: center;
 }
 
 .jumbotron {
